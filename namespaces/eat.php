@@ -1,11 +1,11 @@
 <?php
 
 require 'Pizza.php';
+require 'Lunch.php';
 
-use Food\Tasty\Pizza as ItalianTreat;
+use Meals\Lunch;
 
-$pizza = new ItalianTreat();
-
-echo $pizza->eat();
+$lunch = new Lunch();
+echo $lunch->getFood()->eat();
 
 ?>
