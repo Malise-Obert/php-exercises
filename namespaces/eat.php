@@ -2,7 +2,7 @@
 
 require 'Pizza.php';
 
-$pizza = new Pizza();
+$pizza = new \Food\Tasty\Pizza();
 
 echo $pizza->eat();
 
