@@ -1,0 +1,13 @@
+{
+    "name": "maliseobert/drupal",
+    "require": {
+        "symfony/finder": "^3.3",
+        "symfony/filesystem": "^3.3.3"
+    },
+    "authors": [
+        {
+            "name": "Malise Obert",
+            "email": "maliseo@miway.co.za"
+        }
+    ]
+}
